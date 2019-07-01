@@ -4,8 +4,8 @@
   "description": "Nuestro primer proyecto de wd",
   "main": "index.html",
   "scripts": {
-  "dev": "lite-server",   
-  "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,10 @@
   "homepage": "https://bitbucket.org/Marcodt21/pagina-futbol#readme",
   "devDependencies": {
     "lite-server": "^2.5.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
   }
 }
