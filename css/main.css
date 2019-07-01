@@ -1,0 +1,34 @@
+.jumbotron{
+    background-color: #f50003;
+    color: black;
+}
+
+.footer{
+    padding: 10px 10px 0 10ox;
+    background-color: #f50003;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+#subset{
+    background-color: #f50003;
+    padding: 10px;
+}
+
+.card-player{
+    flex: 1 300px;
+    padding: 2px 5px 2px 5px;
+    margin-top: 12px;
+}
+
+.btn-reserva{
+    width: 50%;
+    margin-left:25%;
+    margin-right: 25%;
+    
+}
+
+.player{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%; 
+}
