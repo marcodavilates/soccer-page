@@ -4,7 +4,8 @@
   "description": "Nuestro primer proyecto de wd",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dev": "lite-server",   
+  "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -12,5 +13,8 @@
   },
   "author": "Marco Davila",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/Marcodt21/pagina-futbol#readme"
+  "homepage": "https://bitbucket.org/Marcodt21/pagina-futbol#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.3"
+  }
 }
