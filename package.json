@@ -1,0 +1,16 @@
+{
+  "name": "pagina-futbol",
+  "version": "1.0.0",
+  "description": "Nuestro primer proyecto de wd",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Marcodt21@bitbucket.org/Marcodt21/pagina-futbol.git"
+  },
+  "author": "Marco Davila",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Marcodt21/pagina-futbol#readme"
+}
