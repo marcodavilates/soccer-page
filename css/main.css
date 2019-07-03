@@ -15,11 +15,13 @@
     background-color: #f50003;
     padding: 10px;
 }
-
+.ads{
+    weight:700px;
+    height:500px;
+}
 .card-player{
-    flex: 1 300px;
     padding: 2px 5px 2px 5px;
-    margin-top: 12px;
+    margin: 12px 2px 2px 6px;
 }
 
 .btn-reserva{
@@ -36,4 +38,7 @@
     flex: 300px;
     padding: 2px 5px 2px 5px;
     margin-top:2px;
+}
+.piso{
+    padding: 10px;
 }
