@@ -95,8 +95,8 @@
          <div class="card-columns">
             <div class="card card-player">
               <div class="card-header">  
-                <h3 class="player  cart-title text-center">Lionel Messi</h3>
-                <img class="card-img-top" src="imagenes/messi.jpg" alt="messi.jpg">
+                <h3 class="player  cart-title text-center" data-toggle="tooltip" data-placement="top" title="La pulga">Lionel Messi</h3>
+                <img class="card-img-top" src="imagenes/messi.jpg" alt="messi.jpg" >
               </div>
               <div class="card-body">
                 <button type="button" class="btn btn-success btn-reserva" data-toggle="modal" data-target="#messimodal">Ver mas <span class="oi oi-plus"></span></button>
@@ -104,7 +104,7 @@
             </div>
             <div class="card card-player">
               <div class="card-header">  
-                <h3 class="player text-center">Ronaldo</h3>
+                <h3 class="player text-center" data-toggle="tooltip" data-placement="top" title="El fenomeno">Ronaldo</h3>
                 <img class="card-img-top" src="imagenes/ronaldo.jpeg" alt="ronaldo.jpeg">
               </div>
               <div class="card-body">
@@ -113,16 +113,16 @@
             </div>
             <div class="card card-player">
              <div class="card-header">
-              <h3 class="player text-center">Ronaldinho</h3>
+              <h3 class="player text-center" data-toggle="tooltip" data-placement="top" title="Dinho">Ronaldinho</h3>
               <img class="card-img-top" src="imagenes/ronaldinho.jpg" alt="ronaldinho.jpg">
              </div>
              <div class="card-body">
-              <button type="button" class="btn btn-warning btn-reserva"data-toggle="modal" data-target="#ronaldinhomodal" >Ver mas <span class="oi oi-plus"></span></button>
+              <button type="button" class="btn btn-warning btn-reserva"data-toggle="modal" data-target="#ronaldinhomodal">Ver mas <span class="oi oi-plus"></span></button>
              </div>
             </div>
             <div class="card card-player">
               <div class="card-header">
-                <h3 class="player text-center card-title" >Diego Maradona</h3>
+                <h3 class="player text-center card-title" data-toggle="tooltip" data-placement="top" title="El pelusa" >Diego Maradona</h3>
                 <img class="card-img-top" src="imagenes/maradona.jpg" alt="maradona.jpg">
               </div>
               <div class="card-body">
@@ -131,7 +131,7 @@
             </div>
             <div class="card card-player">
               <div class="card-header">
-                <h3 class="player card-title text-center">Pele</h3>
+                <h3 class="player card-title text-center" data-toggle="tooltip" data-placement="top" title="El rey">Pele</h3>
                 <img class="card-img-top"  src="imagenes/pele.jpg" alt="pele.jpg">
               </div>
               <div class="card-body">
@@ -140,7 +140,7 @@
             </div>
              <div class="card card-player">
              <div class="card-header">              
-                  <h3 class="player card-title text-center">Johan Cruyff</h3>
+                  <h3 class="player card-title text-center" data-toggle="tooltip" data-placement="top" title="Cruyff">Johan Cruyff</h3>
                   <img class="card-img-top" src="imagenes/cruyff.jpg" alt="cruyff.jpg">
               </div>
               <div class="card-body">
@@ -463,6 +463,11 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+      $(function()){
+        $("[data-toggle=tooltip]").tooltip();
+      }
+    </script>
       <footer class="footer">
         <div class="container">
           <div class="row piso">
