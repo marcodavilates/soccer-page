@@ -38,8 +38,10 @@
 .piso{
     padding: 10px;
 }
+td, th{
+    text-align:center;
+}
 
-.aid{
-    height: 50%;
-    weight:100%;
+.card-team{
+    margin-top: 15px;
 }
