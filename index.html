@@ -52,7 +52,7 @@
     <div class="container"> 
     <img src="imagenes/futbol.jpg" class="img-fluid " style="height:200px; width:100%;  " alt="futbol.jpg">
     <div class="row" >
-      <div class="col-md-4" style="padding: 10px; border: 2px blue solid;">
+      <div class="col-md-4" style="padding: 10px;">
         <button type="button" class="btn btn-primary col-md-4 offset-md-4" data-toggle="collapse" data-target="#paraque" aria-expanded="false" aria-controls="multiCollapse1">Para que</button>
         <div class="col-md-12 card-press justify-content-start comienzo collapse multicollapse" id="paraque">
             <h2 class="text-center">Para que esta pagina</h2>
@@ -99,10 +99,7 @@
                 <img class="card-img-top" src="imagenes/messi.jpg" alt="messi.jpg">
               </div>
               <div class="card-body">
-                <p>Santa Fe, Argentina, 24 de junio de 1987 , es un futbolista argentino juega como delantero en el fc barcelona de la primera division de españa y en la seleccion de futbol de argentina, desde el año 2009 es considerado por el mundo.</p>
-              </div>
-              <div>
-                <button type="button" class="btn btn-success btn-reserva">Messi</button>
+                <button type="button" class="btn btn-success btn-reserva" data-toggle="modal" data-target="#messimodal">Ver mas <span class="oi oi-plus"></span></button>
               </div>
             </div>
             <div class="card card-player">
@@ -111,22 +108,16 @@
                 <img class="card-img-top" src="imagenes/ronaldo.jpeg" alt="ronaldo.jpeg">
               </div>
               <div class="card-body">
-                <p>Brasileño. Es considerado como uno de los mejores futbolistas de la historia y especialmente como uno de los mejores delanteros.Fue la gran figura de la selección brasileña que ganó el mundial Corea-Japón 2002 y el subcampeonato en Francia 98.</p>
-              </div>
-              <div>
-                <button type="button" class="btn btn-primary btn-reserva">Ronaldo</button>
+                <button type="button" class="btn btn-primary btn-reserva" data-toggle="modal" data-target="#ronaldomodal">Ver mas <span class="oi oi-plus"></span></button>
               </div>
             </div>
             <div class="card card-player">
              <div class="card-header">
               <h3 class="player text-center">Ronaldinho</h3>
+              <img class="card-img-top" src="imagenes/ronaldinho.jpg" alt="ronaldinho.jpg">
              </div>
              <div class="card-body">
-              <p>Ronaldo de Assis Moreira (Porto Alegre, Estado de Rio Grande do Sul, Brasil; 21 de marzo de 1980), conocido en el mundo como Ronaldinho Gaúcho o solo como Ronaldinho, es un futbolista brasileño del Clube de Regatas do Flamengo en la liga del Campeonato Brasileño de Serie A. Es reconocido mundialmente por haber estado en equipos europeos como el FC Barcelona y AC Milan.</p>
-             </div>
-             <div>
-                <img class="card-img-bottom" src="imagenes/ronaldinho.jpg" style="padding:3px 10px 15px 10px;"alt="ronaldinho.jpg">
-              <button type="button" class="btn btn-warning btn-reserva">Ronaldinho</button>
+              <button type="button" class="btn btn-warning btn-reserva"data-toggle="modal" data-target="#ronaldinhomodal" >Ver mas <span class="oi oi-plus"></span></button>
              </div>
             </div>
             <div class="card card-player">
@@ -135,22 +126,16 @@
                 <img class="card-img-top" src="imagenes/maradona.jpg" alt="maradona.jpg">
               </div>
               <div class="card-body">
-                <p>(Lanús, Buenos Aires, Argentina, 30 de octubre de 1960, es un exfutbolista y director técnico argentino,Es considerado como uno de los mejores jugadores en la historia de este deporte, siendo calificado por muchos futbolistas y exfutbolistas por periodistas y prensa en general.</p>
-              </div>
-              <div>
-                <button type="button" class="btn btn-info btn-reserva">Maradona</button>
+                <button type="button" class="btn btn-info btn-reserva" data-toggle="modal" data-target="#maradonamodal" >Ver mas <span class="oi oi-plus"></span></button>
               </div>
             </div>
             <div class="card card-player">
               <div class="card-header">
                 <h3 class="player card-title text-center">Pele</h3>
+                <img class="card-img-top"  src="imagenes/pele.jpg" alt="pele.jpg">
               </div>
               <div class="card-body">
-                <p>PELÉ (Edson Arantes do Nascimento) Três Corações, 23 de octubre de 1940, es un ex futbolista brasileño. Es considerado por muchos ex jugadores,por diversos entes deportivos,por periodistas y la prensa en general,y gran parte de los admiradores del fútbol,como el mejor jugador en la historia.</p>
-              </div>
-              <div>
-                <img class="card-img-bottom" style="padding:3px 10px 15px 10px;" src="imagenes/pele.jpg" alt="pele.jpg">
-                <button type="button" class="btn btn-dark btn-reserva">Pelé</button>
+                <button type="button" class="btn btn-dark btn-reserva" data-toggle="modal" data-target="#pelemodal">Ver mas <span class="oi oi-plus"></span></button>
               </div>
             </div>
              <div class="card card-player">
@@ -159,14 +144,320 @@
                   <img class="card-img-top" src="imagenes/cruyff.jpg" alt="cruyff.jpg">
               </div>
               <div class="card-body">
-                  <p>Hendrik Johannes Cruijff, conocido internacionalmente como Johan Cruyff (Ámsterdam, 25 de abril de 1947 Acerca de este sonido Johan Cruiff) es un ex futbolista neerlandés Recibió el Balón de Oro en tres ocasiones (1971, 1973 y 1974), marca que comparte con Michel Platini y Marco Van Basten.</p>
-              </div>
-                <div>
-                  <button type="button" class="btn btn-warning btn-reserva">Cruyff</button>
+                  <button type="button" class="btn btn-warning btn-reserva" data-toggle="modal" data-target="#cruyffmodal">Ver mas <span class="oi oi-plus"></span></button>
                 </div>
               </div>
        </div>
-    </div>  
+       <div class="modal fade" id="messimodal" tabindex="-1" role="dialog" aria-labelledby="messiModal" aria-hidden="true">
+          <div class="modal-dialog" role="document">  
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="messimodal">Lionel Messi</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true">&times;</span></button>
+              </div>
+              <div class="modal-body">
+                <p>Santa Fe, Argentina, 24 de junio de 1987 , es un futbolista argentino juega como delantero en el fc barcelona de la primera division de españa y en la seleccion de futbol de argentina, desde el año 2009 es considerado por el mundo.</p>
+                <form>
+                  <h3>Interactua con nosotros.</h3>
+                  <h5>Es el mejor jugador de la historia?</h5>
+                    <div class="form-row">
+                      <div class="form-group col-md-4">
+                        <div class="custom-control custom-radio">
+                          <input type="radio" id="afirmativo" name="customRadio" class="custom-control-input">
+                          <label class="custom-control-label" for="afirmativo">Si es el mejor</label>
+                        </div>
+                      </div>
+                      <div class="form-group col-md-4" >
+                        <div class="custom-control custom-radio">
+                          <input type="radio" id="negativo" name="customRadio" class="custom-control-input">
+                          <label class="custom-control-label" for="negativo">No lo es</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-12">
+                        <label for="comentarios"><h5>Comparta con nosotros datos interesantes.</h5></label>
+                        <textarea id="comentarios" class="form-control" rows="5"></textarea>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="nombres">Nombre y Apellido</label>
+                        <input id="nombres" placeholder="Nombre y Apellido" class="form-control" type="text">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input id="email" placeholder="Email" type="email" class="form-control">
+                      </div> 
+                    </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-secondary" tyoe="button" data-dismiss="modal">Cerrar</button>
+                <button class="btn btn-primary" type="button">Enviar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="modal fade" id="ronaldomodal" tabindex="-1" role="dialog" aria-labelledby="ronaldoModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">  
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="ronaldomodal">Ronaldo</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <p>Brasileño. Es considerado como uno de los mejores futbolistas de la historia y especialmente como uno de los mejores delanteros.Fue la gran figura de la selección brasileña que ganó el mundial Corea-Japón 2002 y el subcampeonato en Francia 98.</p>
+              <form>
+                <h3>Interactua con nosotros.</h3>
+                <h5>Es el mejor jugador de la historia?</h5>
+                  <div class="form-row">
+                    <div class="form-group col-md-4">
+                      <div class="custom-control custom-radio">
+                        <input type="radio" id="afirmativo1" name="customRadio1" class="custom-control-input">
+                        <label class="custom-control-label" for="afirmativo1">Si es el mejor</label>
+                      </div>
+                    </div>
+                    <div class="form-group col-md-4" >
+                      <div class="custom-control custom-radio">
+                        <input type="radio" id="negativo1" name="customRadio1" class="custom-control-input">
+                        <label class="custom-control-label" for="negativo1">No lo es</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-12">
+                      <label for="comentarios"><h5>Comparta con nosotros datos interesantes.</h5></label>
+                      <textarea id="comentarios" class="form-control" rows="5"></textarea>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="nombres">Nombre y Apellido</label>
+                      <input id="nombres" placeholder="Nombre y Apellido" class="form-control" type="text">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="email">Email</label>
+                      <input id="email" placeholder="Email" type="email" class="form-control">
+                    </div> 
+                  </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary" tyoe="button" data-dismiss="modal">Cerrar</button>
+              <button class="btn btn-primary" type="button">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="ronaldinhomodal" tabindex="-1" role="dialog" aria-labelledby="ronaldinhoModal" aria-hidden="true">
+          <div class="modal-dialog" role="document">  
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="ronaldinhomodal">Ronaldinho</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true">&times;</span></button>
+              </div>
+              <div class="modal-body">
+                  <p>Ronaldo de Assis Moreira (Porto Alegre, Estado de Rio Grande do Sul, Brasil; 21 de marzo de 1980), conocido en el mundo como Ronaldinho Gaúcho o solo como Ronaldinho, es un futbolista brasileño del Clube de Regatas do Flamengo en la liga del Campeonato Brasileño de Serie A. Es reconocido mundialmente por haber estado en equipos europeos como el FC Barcelona y AC Milan.</p>
+                <form>
+                    <h3>Interactua con nosotros.</h3>
+                    <h5>Es el mejor jugador de la historia?</h5>
+                      <div class="form-row">
+                        <div class="form-group col-md-4">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="afirmativo2" name="customRadio2" class="custom-control-input">
+                            <label class="custom-control-label" for="afirmativo2">Si es el mejor</label>
+                          </div>
+                        </div>
+                        <div class="form-group col-md-4" >
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="negativo2" name="customRadio2" class="custom-control-input">
+                            <label class="custom-control-label" for="negativo2">No lo es</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-12">
+                          <label for="comentarios"><h5>Comparta con nosotros datos interesantes.</h5></label>
+                          <textarea id="comentarios" class="form-control" rows="5"></textarea>
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="nombres">Nombre y Apellido</label>
+                          <input id="nombres" placeholder="Nombre y Apellido" class="form-control" type="text">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="email">Email</label>
+                          <input id="email" placeholder="Email" type="email" class="form-control">
+                        </div> 
+                      </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-secondary" tyoe="button" data-dismiss="modal">Cerrar</button>
+                  <button class="btn btn-primary" type="button">Enviar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="maradonamodal" tabindex="-1" role="dialog" aria-labelledby="maradonaModal" aria-hidden="true">
+            <div class="modal-dialog" role="document">  
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="maradonamodal">Maradona</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <p>(Lanús, Buenos Aires, Argentina, 30 de octubre de 1960, es un exfutbolista y director técnico argentino,Es considerado como uno de los mejores jugadores en la historia de este deporte, siendo calificado por muchos futbolistas y exfutbolistas por periodistas y prensa en general.</p>                  <form>
+                    <h3>Interactua con nosotros.</h3>
+                    <h5>Es el mejor jugador de la historia?</h5>
+                      <div class="form-row">
+                        <div class="form-group col-md-4">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="afirmativo3" name="customRadio3" class="custom-control-input">
+                            <label class="custom-control-label" for="afirmativo3">Si es el mejor</label>
+                          </div>
+                        </div>
+                        <div class="form-group col-md-4" >
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="negativo3" name="customRadio3" class="custom-control-input">
+                            <label class="custom-control-label" for="negativo3">No lo es</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-12">
+                          <label for="comentarios"><h5>Comparta con nosotros datos interesantes.</h5></label>
+                          <textarea id="comentarios" class="form-control" rows="5"></textarea>
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="nombres">Nombre y Apellido</label>
+                          <input id="nombres" placeholder="Nombre y Apellido" class="form-control" type="text">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="email">Email</label>
+                          <input id="email" placeholder="Email" type="email" class="form-control">
+                        </div> 
+                      </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-secondary" tyoe="button" data-dismiss="modal">Cerrar</button>
+                  <button class="btn btn-primary" type="button">Enviar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="pelemodal" tabindex="-1" role="dialog" aria-labelledby="peleModal" aria-hidden="true">
+            <div class="modal-dialog" role="document">  
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="pelemodal">Pele</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <p>PELÉ (Edson Arantes do Nascimento) Três Corações, 23 de octubre de 1940, es un ex futbolista brasileño. Es considerado por muchos ex jugadores,por diversos entes deportivos,por periodistas y la prensa en general,y gran parte de los admiradores del fútbol,como el mejor jugador en la historia.</p>                  <form>
+                    <h3>Interactua con nosotros.</h3>
+                    <h5>Es el mejor jugador de la historia?</h5>
+                      <div class="form-row">
+                        <div class="form-group col-md-4">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="afirmativo4" name="customRadio4" class="custom-control-input">
+                            <label class="custom-control-label" for="afirmativo4">Si es el mejor</label>
+                          </div>
+                        </div>
+                        <div class="form-group col-md-4" >
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="negativo4" name="customRadio4" class="custom-control-input">
+                            <label class="custom-control-label" for="negativo4">No lo es</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-12">
+                          <label for="comentarios"><h5>Comparta con nosotros datos interesantes.</h5></label>
+                          <textarea id="comentarios" class="form-control" rows="5"></textarea>
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="nombres">Nombre y Apellido</label>
+                          <input id="nombres" placeholder="Nombre y Apellido" class="form-control" type="text">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="email">Email</label>
+                          <input id="email" placeholder="Email" type="email" class="form-control">
+                        </div> 
+                      </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-secondary" tyoe="button" data-dismiss="modal">Cerrar</button>
+                  <button class="btn btn-primary" type="button">Enviar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="cruyffmodal" tabindex="-1" role="dialog" aria-labelledby="cruyffModal" aria-hidden="true">
+            <div class="modal-dialog" role="document">  
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="cruyffmodal">Johan Cruyff</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <p>Hendrik Johannes Cruijff, conocido internacionalmente como Johan Cruyff (Ámsterdam, 25 de abril de 1947 Acerca de este sonido Johan Cruiff) es un ex futbolista neerlandés Recibió el Balón de Oro en tres ocasiones (1971, 1973 y 1974), marca que comparte con Michel Platini y Marco Van Basten.</p>                  <form>
+                    <h3>Interactua con nosotros.</h3>
+                    <h5>Es el mejor jugador de la historia?</h5>
+                      <div class="form-row">
+                        <div class="form-group col-md-4">
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="afirmativo5" name="customRadio5" class="custom-control-input">
+                            <label class="custom-control-label" for="afirmativo5">Si es el mejor</label>
+                          </div>
+                        </div>
+                        <div class="form-group col-md-4" >
+                          <div class="custom-control custom-radio">
+                            <input type="radio" id="negativo5" name="customRadio5" class="custom-control-input">
+                            <label class="custom-control-label" for="negativo5">No lo es</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-12">
+                          <label for="comentarios"><h5>Comparta con nosotros datos interesantes.</h5></label>
+                          <textarea id="comentarios" class="form-control" rows="5"></textarea>
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="nombres">Nombre y Apellido</label>
+                          <input id="nombres" placeholder="Nombre y Apellido" class="form-control" type="text">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="email">Email</label>
+                          <input id="email" placeholder="Email" type="email" class="form-control">
+                        </div> 
+                      </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-secondary" tyoe="button" data-dismiss="modal">Cerrar</button>
+                  <button class="btn btn-primary" type="button">Enviar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
