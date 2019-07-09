@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <!-- build:css dist/index.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styless.css">
     <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    <!-- endbuild -->
 
-    <title>Pagina de futbol</title>
+    <title>LocosxFutbol</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
@@ -617,8 +619,9 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- build:js dist/index.js -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script>
       $(function(){
@@ -639,6 +642,7 @@
         $('#botonmessi').removeClass('btn-warning');
         $('#botonmessi').addClass('btn-success');
         $('#botonmessi').prop('disabled', false);
+        $('#botonmessi').button('dispose');
       });
       $("#messimodal").on('hidden.bs.modal', function (e) {
         console.log('Se termino de cerrar el modal');
@@ -734,6 +738,7 @@
         console.log('Se termino de cerrar el modal');
       });
     </script>
+    <!-- endbuild -->
       <footer class="footer">
         <div class="container">
           <div class="row piso">
